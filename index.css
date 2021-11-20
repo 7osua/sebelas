@@ -161,16 +161,6 @@ main {
     border-radius: 0.5rem;
 }
 
-@media (min-width: 48rem) {
-    .pop {
-        top: 2%;
-        width: 64%;
-    }
-    .pop-image {
-        width: 100%;
-    }
-}
-
 .pop-header,
 .pop-body {
     margin: 1rem 0.5rem;
@@ -182,14 +172,35 @@ main {
     font-size: 1rem;
 }
 
-.pop-body__text {
-    font-size: 0.7rem;
-}
-
 .pop-title__text {
     font-size: 0.875rem;
+    color: #868e96;
 }
 
+.pop-body__text {
+    font-size: 0.7rem;
+    color: #212529;
+}
+
+@media (min-width: 48rem) {
+    .pop {
+        top: 10%;
+        width: 40%;
+    }
+    .pop-image {
+        width: 100%;
+    }
+    .pop-title {
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+    .pop-title__text {
+        font-size: 1.25rem;
+    }
+    .pop-body__text {
+        font-size: 1rem;
+    }
+}
 .backdrop {
     z-index: 1;
     display: none;
