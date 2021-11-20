@@ -9,71 +9,114 @@
               content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"
               href="index.css" />
+        <script src="index.js"
+                defer></script>
         <title>11st - Josua Manullang</title>
     </head>
 
     <body>
+        <div class="backdrop"></div>
         <main>
-            <section>
-                <div>
-                    <img src="imgs/01.jpg" alt="Winter Spot">
+            <section class="cards">
+                <div class="card-image">
+                    <img src="imgs/01.jpg"
+                         alt="Winter Spot">
                 </div>
-                <div>
-                    <h1>Top Winter Location</h1>
-                    <p>More than 200 locations</p>
+                <div class="card-header">
+                    <h1 class="card-title">Top Winter Location</h1>
+                    <p class="card-title__text">More than 200 locations</p>
                 </div>
-                <div>
-                    <p> Cards provides context and entry point to more robust information and views, and their content and quantity can vary greatly </p>
+                <div class="card-body">
+                    <p class="card-body__text"> Cards provides context and entry point to more robust information and views, and their content and quantity can vary greatly </p>
                 </div>
-                <div>
-                    <button>Share</button>
-                    <button>Explore</button>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <img src="imgs/02.jpg" alt="Road Trips">
-                </div>
-                <div>
-                    <h1>Top eastern road trips</h1>
-                    <p>2.000 Miles of wonder</p>
-                </div>
-                <div>
-                    <button>Share</button>
-                    <button>Explore</button>
+                <div class="card-footer">
+                    <button class="card-button">Share</button>
+                    <button class="card-button explore01">Explore</button>
+                    <button class="card-button card-arrow">
+                        <span class="material-icons-outlined"> expand_more </span>
+                    </button>
                 </div>
             </section>
-            <section>
-                <div>
-                    <div>
-                        <img src="imgs/avatar.jpg" alt="Kangaroo spot">
-                        <h3>Christy</h3>
-                        <p>20 mins ago</p>
+            <section class="cards">
+                <div class="card-image">
+                    <img src="imgs/02.jpg"
+                         alt="Road Trips">
+                </div>
+                <div class="card-header">
+                    <h1 class="card-title">Top eastern road trips</h1>
+                    <p class="card-title__text">2.000 Miles of wonder</p>
+                </div>
+                <div class="card-footer">
+                    <button class="card-button">Share</button>
+                    <button class="card-button explore02">Explore</button>
+                    <button class="card-button card-arrow">
+                        <span class="material-icons-outlined"> expand_more </span>
+                    </button>
+                </div>
+            </section>
+            <section class="cards cards-post">
+                <div class="card-profile">
+                    <img class="profile-avatar"
+                         src="imgs/avatar.jpg"
+                         alt="Christy photo profile">
+                    <div class="post-summary">
+                        <h3 class="profile-name">Christy</h3>
+                        <p class="post-time">20 mins ago</p>
                     </div>
                 </div>
-                <div>
-                    <img src="imgs/03.jpg" alt="Winter Spot">
+                <div class="card-image">
+                    <img src="imgs/03.jpg"
+                         alt="Kangaroo Spot">
                 </div>
-                <div>
-                    <h1>Kangaroo Valley Safari</h1>
-                    <p>Free on Thursdays</p>
+                <div class="card-header">
+                    <h1 class="card-title">Kangaroo Valley Safari</h1>
+                    <p class="card-title__text">Free on Thursdays</p>
                 </div>
-                <div>
-                    <p> Cards provides context and entry point to more robust information and views, and their content and quantity can vary greatly </p>
-                </div>
-                <div>
-                    <button>Share</button>
-                    <button>Explore</button>
+                <div class="card-body">
+                    <p class="card-body__text"> Cards provides context and entry point to more robust information and views, and their content and quantity can vary greatly </p>
                 </div>
             </section>
-            <section>
-                <div>
-                    <img src="imgs/02.jpg" alt="Road location">
+            <section class="cards">
+                <div class="card-image">
+                    <img src="imgs/02.jpg"
+                         alt="Road location">
                 </div>
-                <div>
-                    <span class="material-icons-outlined"> favorite </span>
-                    <span class="material-icons-outlined"> bookmark </span>
-                    <span class="material-icons-outlined"> place </span>
+                <div class="card-footer card-footer-only">
+                    <button class="card-button">
+                        <span class="material-icons-outlined"> favorite </span>
+                    </button>
+                    <button class="card-button">
+                        <span class="material-icons-outlined"> bookmark </span>
+                    </button>
+                    <button class="card-button">
+                        <span class="material-icons-outlined"> place </span>
+                    </button>
+                </div>
+            </section>
+            <section class="pop pop01">
+                <div class="pop-image">
+                    <img src="imgs/01.jpg"
+                         alt="Winter Spot">
+                </div>
+                <div class="pop-header">
+                    <h1 class="pop-title">Top Winter Location</h1>
+                    <p class="pop-title__text">More than 200 locations</p>
+                </div>
+                <div class="pop-body">
+                    <p class="pop-body__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis blanditiis ad magnam velit ullam, quibusdam necessitatibus doloremque quaerat dicta alias tempora tenetur perferendis a dolore voluptatibus corporis, placeat odio.</p>
+                </div>
+            </section>
+            <section class="pop pop02">
+                <div class="pop-image">
+                    <img src="imgs/02.jpg"
+                         alt="Winter Spot">
+                </div>
+                <div class="pop-header">
+                    <h1 class="pop-title">Top Winter Location</h1>
+                    <p class="pop-title__text">More than 200 locations</p>
+                </div>
+                <div class="pop-body">
+                    <p class="pop-body__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis blanditiis ad magnam velit ullam, quibusdam necessitatibus doloremque quaerat dicta alias tempora tenetur perferendis a dolore voluptatibus corporis, placeat odio.</p>
                 </div>
             </section>
         </main>
